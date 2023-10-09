@@ -26,5 +26,5 @@ async function enviarMensagensTelegram(messages) {
 }
 
 enviarMensagensTelegram(`
-Texto para spammar
+    Texto para enviar
 `).then(count => console.log(`Código finalizado, ${count} mensagens enviadas`)).catch(console.error);
